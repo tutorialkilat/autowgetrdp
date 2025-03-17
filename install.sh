@@ -27,13 +27,15 @@ sudo apt-get install qemu-kvm -y
 
 echo "QEMU installation completed successfully."
 
+clear
 # Fungsi untuk menampilkan menu dan mengambil pilihan pengguna
 display_menu() {
     echo "Please select the Windows Server or Windows version:"
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
-    echo "4. Windows 11"
+    echo "4. Windows 10"
+    echo "5. Windows 11"
     read -p "Enter your choice: " choice
 }
 
